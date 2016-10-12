@@ -18,7 +18,7 @@ def send_mail(file_new):
     msg['Subject'] = Header(u"自动化测试报告","utf-8")
     smtp = smtplib.SMTP()
     smtp.connect("smtp.mxhichina.com")
-    smtp.login("leichengliang@kuaiqiangche.com","Lei214811")
+    smtp.login("leichengliang@kuaiqiangche.com","*****")
     # sender = 'leichengliang@kuaiqiangche.com'
     # receiver = ['lei214811@163.com','648763572@qq.com']
     # smtp.sendmail(sender, receiver, msg.as_string())
